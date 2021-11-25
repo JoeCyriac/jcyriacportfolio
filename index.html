@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Joe Cyriac</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas position-bottom show-for-small-only menuColor" id="offCanvas" data-off-canvas>
+            <h3 class="text-center"> Browse Pages
+                <button style="float: right;" type="button" data-close>
+                    <span>&times;</span>
+                </button>
+            </h3>
+
+            <ul class="menu vertical text-center" id="navmenu">
+                <li><a href="resume.html" target="_self">Project 1</a></li>
+                <li><a href="projects.html" target="_self">Project 2</a></li>
+                <li><a href="fun.html" target="_self">Project 3</a></li>
+            </ul>
+        </div>
+        <div class="off-canvas-content menuBar" data-transition="overlap" data-off-canvas-content>
+            <button class="menu-icon cell show-for-small-only small-3 flex-container align-middle button"
+                data-open="offCanvas" style="background-color: #2b2b2b; float: left"></button>
+            <div class="grid-y">
+                <div class="grid-x"></div>
+                <ul class="menu hide-for-small-only fList">
+                    <li>
+                        <a href="resume.html" target="_self">
+                            <p>Project 1</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="projects.html" target="_self">
+                            <p>Project 2</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="fun.html" target="_self">
+                            <p>Project 3</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="grid-container">
+            <h1><b>Joseph Cyriac</b></h1>
+            <h2>Welcome to https://jcyriacportfolio.github.io! On this website, you will be able to get to know
+                a little bit about me and some projects I have worked on.</h2>
+            <br><br>
+            <div class="grid-y">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-auto medium-3 center">
+                        <img src="images/studio.jpg" width="250" height="250" alt="Image of Joe">
+                    </div>
+                    <div class="cell small-auto medium-9 center">
+                        <br>
+                        <h3><b>Read Me:</b></h3>
+                        <br>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <br><br>
+
+    <div class="center">
+        <h3>Thank you for visiting!</h3>
+        <p>If you have any questions, feel free to contact: <u>joe@cyriacs.com</u>.</p>
+    </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+
+</html>

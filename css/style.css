@@ -1,0 +1,89 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: medium;
+}
+
+.center {
+    text-align: center;
+}
+
+#paddedbox {
+    padding: 20px;
+}
+
+body {
+    background-color: #61bdc2;
+}
+
+p {
+    font: normal 1rem Arial;
+}
+
+.fList{
+    font: normal 1rem Arial;
+}
+
+a:link { 
+    color: #2346C8; 
+} 
+
+a:visited { 
+    color: #8c3ec4; 
+}
+
+a:hover { 
+    color: #d1c70a; 
+}
+
+ul>li>a>p {
+    font: normal 1rem Arial;
+}
+
+ul>li>a:hover {
+    text-decoration: solid;
+}
+
+ul>li>a {
+    color:black
+}
+
+.button {
+    width: 45px;
+    height: 10px;
+}
+
+.indent1 {
+    padding-left: 30px;
+}
+
+.indent2 {
+    padding-left: 15px;
+}
+
+.menuColor {
+    background-color: #8bc1c4;
+}
+
+/* Used example from w3 schools for guidance for menu bar */
+.menuBar {
+    background-color: #2b2b2b;
+    overflow: hidden;
+  }
+  
+.menuBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.menuBar a:visited { 
+    color: #8c3ec4; 
+}
+
+.menuBar a:hover { 
+    background-color: white;
+}
