@@ -52,18 +52,49 @@
         <div class="grid-container">
             <h1><b>Project 3</b></h1>
             <br><br>
-            <div class="grid-y">
-                <div class="grid-x grid-padding-x">
-                    <div class="cell small-auto medium-3 center">
-                        <img src="images/project1.jpg" width="250" height="250" alt="Image of project">
-                    </div>
-                    <div class="cell small-auto medium-9 center">
-                        <br>
-                        <h3><b>Description:</b></h3>
-                        <br>
-                        <p></p>
-                    </div>
-                </div>
+
+            <div class="cell small-auto center">
+                <img src="images/project3.jpeg" width="500" height="500" alt="Image of project">
+            </div>
+            <div class="cell small-auto center">
+                <br>
+                <h3><b>Description:</b></h3>
+                <br>
+                <p>This project was done in my Web Development class during the Fall 2021 semester. I had 2
+                    other teammates for this project.
+                    For this assignment, we used node.js to serve static files and dynamic routes for
+                    pages on energy consumption for a particular year, energy consumption for a particular
+                    state, and energy consumption for a particular energy source. 3 interesting things that we
+                    noticed about the data were:
+                    Colorado in 1985 had negative Nuclear Energy, petroleum numbers in Hawaii are very high, and
+                    Nuclear grew exponentially as time goes on, there was little to none in the 1960s. Something
+                    I learned while working on this project was how much more time efficient and beneficial
+                    using a server to update a template rather than hard coding each page. Instead of having to
+                    update thousands of pages when an owner of a site wants to redesign, they are able to just
+                    update the template and fill in the data whereever they designate.
+                    To use this page, install node.js and npm install express and sqlite3.
+                    <br><br>
+                    <h3><b>Examples:</b></h3>
+                    <br>
+                    <b><u>http://localhost:8000/year/2000</u></b> would return a page with each states
+                    consumption of each
+                    type of energy source, the total for each state, and an interactable graph that displays the
+                    percent of
+                    each resource used that year.
+                    <br><br>
+                    <b><u>http://localhost:8000/state/MN</u></b> would return a page with Minnesota's usage of
+                    each energy
+                    type every year from 1960-2018. It also displays an interactable graph to show the trends of
+                    usage throughout these years.
+                    <br><br>
+                    <b><u>http://localhost:8000/energy/coal</u></b> would return a page with each states usage
+                    of coal, for
+                    every year from 1960-2018.
+                    It also displays an interactable graph to show the trends of
+                    usage throughout these years for each state.
+                </p>
+                <br>
+                <p>Link to Repository: https://github.com/JoeCyriac/DynamicWebServer</p>
             </div>
         </div>
     </div>
