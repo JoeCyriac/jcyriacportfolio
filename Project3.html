@@ -22,6 +22,7 @@
                 <li><a href="index.html" target="_self">Home</a></li>
                 <li><a href="Project1.html" target="_self">Project 1</a></li>
                 <li><a href="Project2.html" target="_self">Project 2</a></li>
+                <li><a href="facts.html" target="_self">Analysis</a></li>
             </ul>
         </div>
         <div class="off-canvas-content menuBar" data-transition="overlap" data-off-canvas-content>
@@ -45,6 +46,11 @@
                             <p>Project 2</p>
                         </a>
                     </li>
+                    <li>
+                        <a href="facts.html" target="_self">
+                            <p>Analysis</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -60,38 +66,37 @@
                 <br>
                 <h3><b>Description:</b></h3>
                 <br>
-                <p>Just like Project 2, this project was also done in my Web Development class during the Fall 2021 semester. I had 2
+                <p>Just like Project 2, this project was also done in my Web Development class during the Fall 2021
+                    semester. I had 2
                     other teammates for this project.
                     For this assignment, we used node.js to serve static files and dynamic routes for
                     pages on energy consumption for a particular year, energy consumption for a particular
-                    state, and energy consumption for a particular energy source. 3 interesting things that we
-                    noticed about the data were:
-                    Colorado in 1985 had negative Nuclear Energy, petroleum numbers in Hawaii are very high, and
-                    Nuclear grew exponentially as time goes on, there was little to none in the 1960s. Something
+                    state, and energy consumption for a particular energy source. There were 3 interesting facts we
+                    found while looking at the data that I analyzed <a href="facts.html" target="_self">here</a> Something
                     I learned while working on this project was how much more time-efficient and beneficial
                     using a server to update a template rather than hard coding each page. Instead of having to
                     update thousands of pages when an owner of a site wants to redesign, they can just
                     update the template and fill in the data wherever they designate.
                     To use this page, install node.js and npm install express and sqlite3.
                     <br><br>
-                    <h3><b>Examples:</b></h3>
-                    <br>
-                    <b><u>http://localhost:8000/year/2000</u></b> would return a page with each states
-                    consumption of each
-                    type of energy source, the total for each state, and an interactable graph that displays the
-                    percent of
-                    each resource used that year.
-                    <br><br>
-                    <b><u>http://localhost:8000/state/MN</u></b> would return a page with Minnesota's usage of
-                    each energy
-                    type every year from 1960-2018. It also displays an interactable graph to show the trends of
-                    usage throughout these years.
-                    <br><br>
-                    <b><u>http://localhost:8000/energy/coal</u></b> would return a page with each states usage
-                    of coal, for
-                    every year from 1960-2018.
-                    It also displays an interactable graph to show the trends of
-                    usage throughout these years for each state.
+                <h3><b>Examples:</b></h3>
+                <br>
+                <b><u>http://localhost:8000/year/2000</u></b> would return a page with each states
+                consumption of each
+                type of energy source, the total for each state, and an interactable graph that displays the
+                percent of
+                each resource used that year.
+                <br><br>
+                <b><u>http://localhost:8000/state/MN</u></b> would return a page with Minnesota's usage of
+                each energy
+                type every year from 1960-2018. It also displays an interactable graph to show the trends of
+                usage throughout these years.
+                <br><br>
+                <b><u>http://localhost:8000/energy/coal</u></b> would return a page with each states usage
+                of coal, for
+                every year from 1960-2018.
+                It also displays an interactable graph to show the trends of
+                usage throughout these years for each state.
                 </p>
                 <br>
                 <p>Link to Repository: https://github.com/JoeCyriac/DynamicWebServer</p>
