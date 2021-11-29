@@ -6,4 +6,4 @@ Project 2 is a personal site I created in my Web Development class to introduce 
 
 Project 3 is another assignment that was done in my Web Development class. My group and I created worked on a Dynamic Web Server assignment regarding the energy uses of each state form the years 1960-2018.
 
-Facts is a page that has an analysis on 3 facts I found while working on Project 3.
+Analysis is a page that expands on 3 areas that I found interesting while working on Project 3.
